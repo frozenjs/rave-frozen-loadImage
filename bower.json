@@ -1,0 +1,39 @@
+{
+  "name": "rave-frozen-loadImage",
+  "version": "0.0.0",
+  "homepage": "https://github.com/frozenjs/rave-frozen-loadImage",
+  "authors": [
+    "Blaine Bublitz <blaine@iceddev.com>"
+  ],
+  "description": "Adds frozen's loadImage AMD plugin to RaveJS.",
+  "main": "rave.js",
+  "dependencies": {
+    "frozen": "~0.4.2",
+    "rave-amd-plugins": "~0.1.0"
+  },
+  "rave": {
+    "override": {
+      "dojo": {
+        "moduleType": "amd"
+      }
+    }
+  },
+  "moduleType": [
+    "node"
+  ],
+  "keywords": [
+    "rave",
+    "rave-extension",
+    "frozen",
+    "amd",
+    "plugin"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
