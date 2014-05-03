@@ -12,7 +12,8 @@
     "rave-amd-plugins": "~0.1.0"
   },
   "rave": {
-    "override": {
+    "extension": "rave.js",
+    "overrides": {
       "dojo": {
         "moduleType": "amd"
       }
